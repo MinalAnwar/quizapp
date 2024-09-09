@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:id="@+id/topLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="19dp"
+      android:layout_marginTop="35dp">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Left: 10:00"
+        android:textSize="24dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btnEndExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Exam"
+        android:textSize="17dp"
+        android:layout_marginLeft="50dp"
+        />
+  </LinearLayout>
+  <TextView
+      android:id="@+id/tvMarks"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/topLayout"
+      android:padding="19dp"
+      android:text="Marks: 0"
+      android:textSize="28dp" />
+  <TextView
+      android:id="@+id/tvQuestion"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="What is the capital of France?"
+      android:textSize="30dp"
+      android:paddingLeft="19dp"
+      android:layout_below="@+id/tvMarks" />
+  <RadioGroup
+      android:id="@+id/radioGroupOptions"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/tvQuestion"
+      android:paddingLeft="19dp"
+      android:layout_marginTop="5dp"
+      android:orientation="vertical" >
+
+    <RadioButton
+        android:id="@+id/rbOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="Option 1" />
+
+    <RadioButton
+        android:id="@+id/rbOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="Option 2" />
+
+    <RadioButton
+        android:id="@+id/rbOption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="Option 3" />
+
+    <RadioButton
+        android:id="@+id/rbOption4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="Option 4" />
+  </RadioGroup>
+
+  <LinearLayout
+      android:id="@+id/linearLayoutNavigation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="20dp"
+      android:gravity="center_horizontal"
+      android:layout_below="@id/radioGroupOptions"
+      android:textSize="17dp"
+      >
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="Next"
+        android:layout_marginLeft="40dp" />
+  </LinearLayout>
+  <Button
+      android:id="@+id/btnShowAnswer"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Show Answer"
+      android:textSize="17dp"
+      android:layout_below="@+id/linearLayoutNavigation"
+      android:layout_centerHorizontal="true"
+      />
+
+</RelativeLayout>

@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string-array name="questions">
+        <item>Which of the following is a programming language?</item>
+        <item>What is the capital of France?</item>
+        <item>Which planet is known as the Red Planet?</item>
+        <item>What is the largest ocean on Earth?</item>
+        <item>Who wrote To Kill a Mockingbird?</item>
+        <item>Which element has the chemical symbol O?</item>
+        <item>What is the hardest natural substance on Earth?</item>
+        <item>In what year did the Titanic sink?</item>
+        <item>Which country is known as the Land of the Rising Sun?</item>
+        <item>What is the largest mammal in the world?</item>
+        <item>Who painted the Mona Lisa?</item>
+        <item>What is the smallest planet in our solar system?</item>
+        <item>Which city is known as the City of Lights?</item>
+        <item>What is the main ingredient in guacamole?</item>
+        <item>What is the chemical symbol for gold?</item>
+        <item>What is the capital of Australia?</item>
+        <item>What is the largest desert in the world?</item>
+        <item>Who discovered penicillin?</item>
+        <item>What is the tallest mountain in the world?</item>
+        <item>What is the boiling point of water in Celsius?</item>
+        <item>Which is the smallest country in the world?</item>
+        <item>Who was the first man to walk on the moon?</item>
+        <item>What is the name of the longest river in the world?</item>
+        <item>What is the most spoken language in the world?</item>
+        <item>Which planet is known as the Morning Star?</item>
+    </string-array>
+
+    <string-array name="options_q1">
+        <item>Python</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>SQL</item>
+    </string-array>
+
+    <string-array name="options_q2">
+        <item>Paris</item>
+        <item>Berlin</item>
+        <item>London</item>
+        <item>Madrid</item>
+    </string-array>
+
+    <string-array name="options_q3">
+        <item>Mars</item>
+        <item>Venus</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+    </string-array>
+
+    <string-array name="options_q4">
+        <item>Pacific Ocean</item>
+        <item>Atlantic Ocean</item>
+        <item>Indian Ocean</item>
+        <item>Arctic Ocean</item>
+    </string-array>
+
+    <string-array name="options_q5">
+        <item>Harper Lee</item>
+        <item>Mark Twain</item>
+        <item>J.K. Rowling</item>
+        <item>Ernest Hemingway</item>
+    </string-array>
+
+    <string-array name="options_q6">
+        <item>Oxygen</item>
+        <item>Hydrogen</item>
+        <item>Carbon</item>
+        <item>Neon</item>
+    </string-array>
+
+    <string-array name="options_q7">
+        <item>Diamond</item>
+        <item>Gold</item>
+        <item>Iron</item>
+        <item>Platinum</item>
+    </string-array>
+
+    <string-array name="options_q8">
+        <item>1912</item>
+        <item>1920</item>
+        <item>1905</item>
+        <item>1930</item>
+    </string-array>
+
+    <string-array name="options_q9">
+        <item>Japan</item>
+        <item>China</item>
+        <item>South Korea</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="options_q10">
+        <item>Blue Whale</item>
+        <item>Whale Shark</item>
+        <item>Great White Shark</item>
+        <item>Elephant</item>
+    </string-array>
+
+    <string-array name="options_q11">
+        <item>Leonardo da Vinci</item>
+        <item>Vincent van Gogh</item>
+        <item>Pablo Picasso</item>
+        <item>Claude Monet</item>
+    </string-array>
+
+    <string-array name="options_q12">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+
+    <string-array name="options_q13">
+        <item>Paris</item>
+        <item>London</item>
+        <item>Rome</item>
+        <item>New York</item>
+    </string-array>
+
+    <string-array name="options_q14">
+        <item>Avocado</item>
+        <item>Tomato</item>
+        <item>Onion</item>
+        <item>Lemon</item>
+    </string-array>
+
+    <string-array name="options_q15">
+        <item>Au</item>
+        <item>Ag</item>
+        <item>Fe</item>
+        <item>Pb</item>
+    </string-array>
+
+    <string-array name="options_q16">
+        <item>Canberra</item>
+        <item>Melbourne</item>
+        <item>Sydney</item>
+        <item>Brisbane</item>
+    </string-array>
+
+    <string-array name="options_q17">
+        <item>Sahara Desert</item>
+        <item>Gobi Desert</item>
+        <item>Antarctic Desert</item>
+        <item>Kalahari Desert</item>
+    </string-array>
+
+    <string-array name="options_q18">
+        <item>Alexander Fleming</item>
+        <item>Marie Curie</item>
+        <item>Nikola Tesla</item>
+        <item>Isaac Newton</item>
+    </string-array>
+
+    <string-array name="options_q19">
+        <item>Mount Everest</item>
+        <item>Kangchenjunga</item>
+        <item>Kilimanjaro</item>
+        <item>Vinson Massif</item>
+    </string-array>
+
+    <string-array name="options_q20">
+        <item>100°C</item>
+        <item>90°C</item>
+        <item>80°C</item>
+        <item>110°C</item>
+    </string-array>
+
+    <string-array name="options_q21">
+        <item>Vatican City</item>
+        <item>Monaco</item>
+        <item>San Marino</item>
+        <item>Liechtenstein</item>
+    </string-array>
+
+    <string-array name="options_q22">
+        <item>Neil Armstrong</item>
+        <item>Buzz Aldrin</item>
+        <item>Yuri Gagarin</item>
+        <item>Alan Shepard</item>
+    </string-array>
+
+    <string-array name="options_q23">
+        <item>Nile</item>
+        <item>Amazon</item>
+        <item>Yangtze</item>
+        <item>Mississippi</item>
+    </string-array>
+
+    <string-array name="options_q24">
+        <item>Mandarin</item>
+        <item>Spanish</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="options_q25">
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+    </string-array>
+
+    <string-array name="correct_answers">
+        <item>Python</item>
+        <item>Paris</item>
+        <item>Mars</item>
+        <item>Pacific Ocean</item>
+        <item>Harper Lee</item>
+        <item>Oxygen</item>
+        <item>Diamond</item>
+        <item>1912</item>
+        <item>Japan</item>
+        <item>Blue Whale</item>
+        <item>Leonardo da Vinci</item>
+        <item>Mercury</item>
+        <item>Paris</item>
+        <item>Avocado</item>
+        <item>Au</item>
+        <item>Canberra</item>
+        <item>Sahara Desert</item>
+        <item>Alexander Fleming</item>
+        <item>Mount Everest</item>
+        <item>100°C</item>
+        <item>Vatican City</item>
+        <item>Neil Armstrong</item>
+        <item>Nile</item>
+        <item>Mandarin</item>
+        <item>Venus</item>
+    </string-array>
+</resources>
